@@ -69,7 +69,14 @@ Artigo A:Passa-te  a pairar.  {
 }
 
 footer {
-     Alinhamento de texto:   Centro;
- Acondicionamento: 1 Rem.. .. .. .. .. .. .. .. .. .. .....   0;            
- Cor: #000000;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    color: #000000; /* Texto preto */
 }
