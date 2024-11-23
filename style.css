@@ -1,75 +1,75 @@
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    Margem :   0;
+    Acondicionamento:  0;
+     Tamanho da caixa:   Tamanho da caixa:    Caixa  de fronteira;
+    Fonte-Família:  'Arial',  Sem serifas;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #fefefe;
-    color: #333;
+     Exibição :    Flexão;
+     Flex-direção:   coluna;
+    Min-altura:  100VH;
+    cor de fundo: #0b0c14;
+    cor: #333;
 }
 
 header {
-    background-color: #4a90e2;
-    color: white;
-    text-align: center;
-    padding: 2rem 0;
+    cor de fundo: #4a90e2;
+ Cor: Branco;
+     text-align:  Centro;
+ Acondicionamento: 2 Rem.. .. .. .. .. .. .. .. .. .. .....   0;            
 }
 
 header h1 {
-    font-size: 2.5rem;
+    Tamanho da fonte:  2.5rem;
 }
 
 header p {
-    margin-top: 1rem;
-    font-size: 1.2rem;
+     Margem-topo :   1 Rem.........................;
+    Tamanho da fonte:  1.2rem;
 }
 
 main {
-    flex: 1;
-    padding: 2rem;
+    Flexão :   1;
+    Acondicionamento :   Rem.........................;
 }
 
 .entries {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+     Exibição :    Flexão;
+     Flex-direção:   coluna;
+    lacuna:  1.5Rem.;
 }
 
 article {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     fronteira :   1 Px Sólido  #dd;dd;
+     Acondicionamento:  1 Rem.........................;
+     Rácio da fronteira:  8 px;
+     Caixa-Sombra:  0 2 Px 4Px RGBA( ,   );
 }
 
 article h2 {
-    margin-bottom: 0.5rem;
-    color: #4a90e2;
+    Margem-faixo :   0.5Rem.;
+    cor: #4a90e2;
 }
 
 article a {
-    display: inline-block;
-    margin-top: 1rem;
-    color: white;
-    background-color: #4a90e2;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 4px;
+     Exibição :    Bloco  em linha;
+     Margem-topo:  1 Rem.........................;
+     cor:   Branco;
+    cor de fundo: #4a90e2;
+    Acondicionamento:  0.5Rem.  1Rem.;
+      Decoração de texto:    Nenhum;
+     Rácio da fronteira:  4 px;
 }
 
-article a:hover {
-    background-color: #357ab8;
+Artigo A:Passa-te  a pairar.  {
+    cor de fundo: #357ab8;
 }
 
 footer {
-    text-align: center;
-    padding: 1rem 0;
+     Alinhamento de texto:   Centro;
+ Acondicionamento: 1 Rem.. .. .. .. .. .. .. .. .. .. .....   0;            
     background-color: #4a90e2;
-    color: white;
+ Cor: Branco;
 }
