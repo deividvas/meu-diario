@@ -56,34 +56,25 @@ footer {
     font-size: 0.9rem;
 }
 
-/* Menu fixo */
-.fixed-link {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-}
-
-.fixed-link a {
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #000000; /* Preto */
-}
-
 /* Menu de três pontinhos */
 nav {
     position: fixed;
     top: 0;
-    right: 10px;
-    background-color: transparent; /* Sem fundo */
-    padding: 10px;
+    left: 0;
+    background-color: #ffffff; /* Fundo branco */
+    width: 100%; /* Largura total */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     z-index: 10;
 }
 
 .menu-icon {
     font-size: 1.5rem;
     cursor: pointer;
-    color: #000000; /* Preto */
+    color: #000000; /* Cor preta */
 }
 
 /* Lista do menu */
@@ -95,7 +86,7 @@ ul {
     flex-direction: column;
     position: absolute;
     top: 50px;
-    right: 10px;
+    left: 10px;
     background-color: #ffffff;
     border: 1px solid #cccccc;
     padding: 10px;
@@ -106,12 +97,12 @@ ul {
 /* Links do menu */
 ul li a {
     text-decoration: none;
-    color: #000000; /* Preto */
+    color: #000000; /* Cor preta */
     font-size: 1rem;
     font-weight: bold;
 }
 
 /* Exibir menu ao ativar */
 ul.hidden {
-    display: flex; /* Mostra o menu ao remover a classe hidden */
+    display: flex; /* Mostra o menu quando não está oculto */
 }
