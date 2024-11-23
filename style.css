@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 * {
     Margem :   0;
     Acondicionamento:  0;
@@ -7,11 +7,9 @@
 }
 
 body {
-     Exibição :    Flexão;
-     Flex-direção:   coluna;
-    Min-altura:  100VH;
-    cor de fundo: #ffffff;
-    cor: #000000;
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto */
 }
 
 header {
@@ -22,9 +20,12 @@ header {
 }
 
 header h1 {
-    Tamanho da fonte:  2.5rem;
-    Color: #000000
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto no título */
 }
+
 
 header p {
      Margem-topo :   1 Rem.........................;
