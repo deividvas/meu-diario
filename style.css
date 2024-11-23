@@ -55,3 +55,60 @@ footer {
     color: #000000; /* Texto preto */
     font-size: 0.9rem;
 }
+
+/* Menu de três pontinhos */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff; /* Fundo branco */
+    width: 100%; /* Largura total */
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #000000; /* Cor preta */
+}
+
+/* Lista do menu */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+/* Menu oculto por padrão */
+.hidden {
+    display: none;
+}
+
+/* Links do menu */
+ul li a {
+    text-decoration: none;
+    color: #000000; /* Cor preta */
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Exibir menu ao ativar */
+ul.hidden {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    gap: 10px;
+}
