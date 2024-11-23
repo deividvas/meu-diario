@@ -47,8 +47,10 @@ article {
 article h2 {
     Margem-faixo :   0.5Rem.;
     cor: #4a90e2;
+    margin-top: 40px; /* Adiciona espaço acima do título */
+    font-size: 2rem; /* Tamanho da fonte, ajuste conforme necessário */
 }
-
+    
 article a {
      Exibição :    Bloco  em linha;
      Margem-topo:  1 Rem.........................;
