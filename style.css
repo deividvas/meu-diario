@@ -82,13 +82,16 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    gap: 20px;
-}
-
-/* Menu oculto por padrão */
-.hidden {
-    display: none;
+    display: none; /* Ocultar o menu inicialmente */
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    left: 10px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    gap: 10px;
 }
 
 /* Links do menu */
@@ -101,14 +104,5 @@ ul li a {
 
 /* Exibir menu ao ativar */
 ul.hidden {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 50px;
-    left: 10px;
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    gap: 10px;
+    display: flex; /* Mostra o menu quando não está oculto */
 }
