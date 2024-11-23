@@ -1,79 +1,47 @@
+/* Adicionando a fonte do Google Fonts (se quiser usar uma fonte diferente) */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+/* Definindo a aparência geral do site */
 body {
-    background-color: #ffffff;
-    color: #000000;
-    font-family: 'Roboto', sans-serif; /* Fonte Roboto */
+    background-color: #ffffff; /* Cor do fundo */
+    color: #000000; /* Cor do texto */
+    font-family: 'Roboto', sans-serif; /* Fonte do texto */
+    margin: 0;
+    padding: 0;
 }
 
+/* Estilo do cabeçalho */
 header {
-    cor de fundo: #4a90e2;
- Cor: Branco;
-     text-align:  Centro;
- Acondicionamento: 2 Rem.. .. .. .. .. .. .. .. .. .. .....   0;            
+    text-align: center;
+    padding: 20px 0;
 }
 
 header h1 {
     font-size: 2.5rem;
     color: #000000;
-    margin-bottom: 25px;
-    font-family: 'Roboto', sans-serif; /* Fonte Roboto no título */
+    margin-bottom: 30px; /* Espaço entre o título e o conteúdo abaixo */
 }
 
-
-header p {
-     Margem-topo :   1 Rem.........................;
-    Tamanho da fonte:  1.2rem;
-}
-
-main {
-    Flexão :   1;
-    Acondicionamento :   Rem.........................;
-}
-
+/* Estilo das entradas do diário */
 .entries {
-     Exibição :    Flexão;
-     Flex-direção:   coluna;
-    lacuna:  1.5Rem.;
+    margin: 20px;
 }
 
-article {
-     fronteira :   1 Px Sólido  #dd;dd;
-     Acondicionamento:  1 Rem.........................;
-     Rácio da fronteira:  8 px;
-     Caixa-Sombra:  0 2 Px 4Px RGBA( ,   );
+.entries article {
+    margin-bottom: 40px;
 }
 
-article h2 {
-    Margem-faixo :   0.5Rem.;
-    cor: #4a90e2;
-    margin-top: 40px; /* Adiciona espaço acima do título */
-    font-size: 2rem; /* Tamanho da fonte, ajuste conforme necessário */
-}
-    
-article a {
-     Exibição :    Bloco  em linha;
-     Margem-topo:  1 Rem.........................;
-     cor:   Branco;
-    cor de fundo: #4a90e2;
-    Acondicionamento:  0.5Rem.  1Rem.;
-      Decoração de texto:    Nenhum;
-     Rácio da fronteira:  4 px;
+/* Estilo do segundo título com a classe .second-title */
+.second-title {
+    margin-top: 50px; /* Aumente esse valor para mais espaço entre o texto e o título */
+    font-size: 2rem;
+    color: #000000;
 }
 
-Artigo A:Passa-te  a pairar.  {
-    cor de fundo: #357ab8;
-}
-
+/* Estilo do rodapé */
 footer {
     text-align: center;
     padding: 1rem 0;
-    background-color: #ffffff; /* Fundo branco */
-    color: #000000; /* Texto preto */
-}
-
-footer {
-    text-align: center;
-    padding: 1rem 0;
-    color: #000000; /* Texto preto */
+    background-color: #f1f1f1;
+    color: #333;
 }
