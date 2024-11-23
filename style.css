@@ -10,8 +10,8 @@ body {
      Exibição :    Flexão;
      Flex-direção:   coluna;
     Min-altura:  100VH;
-    cor de fundo: #black;
-    cor: #333;
+    cor de fundo: #ffffff;
+    cor: #000000;
 }
 
 header {
@@ -23,6 +23,7 @@ header {
 
 header h1 {
     Tamanho da fonte:  2.5rem;
+    Color: #000000
 }
 
 header p {
