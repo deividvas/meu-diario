@@ -1,47 +1,57 @@
-/* Adicionando a fonte do Google Fonts (se quiser usar uma fonte diferente) */
+/* Importar fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Definindo a aparência geral do site */
+/* Estilo geral */
 body {
-    background-color: #ffffff; /* Cor do fundo */
-    color: #000000; /* Cor do texto */
-    font-family: 'Roboto', sans-serif; /* Fonte do texto */
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+    font-family: 'Roboto', sans-serif; /* Fonte Roboto */
     margin: 0;
     padding: 0;
 }
 
-/* Estilo do cabeçalho */
+/* Cabeçalho */
 header {
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    color: #000000;
-    margin-bottom: 30px; /* Espaço entre o título e o conteúdo abaixo */
+    font-size: 2.5rem; /* Tamanho do título principal */
+    font-weight: bold; /* Negrito */
+    margin-bottom: 10px;
 }
 
-/* Estilo das entradas do diário */
+header .subtitle {
+    font-size: 1rem; /* Tamanho do texto abaixo do título */
+    font-weight: normal; /* Texto normal */
+    margin-top: 0;
+}
+
+/* Estilo das entradas */
 .entries {
     margin: 20px;
+    text-align: center;
 }
 
-.entries article {
-    margin-bottom: 40px;
+.entries h2 {
+    font-size: 2rem; /* Subtítulo */
+    font-weight: bold; /* Negrito */
+    margin-top: 50px; /* Espaço médio acima do subtítulo */
+    margin-bottom: 20px; /* Espaço médio abaixo do subtítulo */
 }
 
-/* Estilo do segundo título com a classe .second-title */
-.second-title {
-    margin-top: 50px; /* Aumente esse valor para mais espaço entre o texto e o título */
-    font-size: 2rem;
-    color: #000000;
+.entries p {
+    font-size: 1rem; /* Texto normal */
+    font-weight: normal; /* Sem negrito */
+    line-height: 1.5; /* Melhor espaçamento entre linhas */
 }
 
-/* Estilo do rodapé */
+/* Rodapé */
 footer {
     text-align: center;
-    padding: 1rem 0;
-    background-color: #f1f1f1;
-    color: #333;
+    padding: 10px 0;
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
+    font-size: 0.9rem;
 }
